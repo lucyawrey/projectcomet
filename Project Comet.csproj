@@ -1,0 +1,14 @@
+<Project Sdk="Godot.NET.Sdk/4.2.2">
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <EnableDynamicLoading>true</EnableDynamicLoading>
+    <!-- Use NativeAOT. -->
+    <PublishAOT>true</PublishAOT>
+    <RootNamespace>ProjectComet</RootNamespace>
+  </PropertyGroup>
+  <ItemGroup>
+    <!-- Root the assemblies to avoid trimming. -->
+    <TrimmerRootAssembly Include="GodotSharp" />
+    <TrimmerRootAssembly Include="$(TargetName)" />
+  </ItemGroup>
+</Project>
