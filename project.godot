@@ -11,8 +11,12 @@ config_version=5
 [application]
 
 config/name="Project Comet"
-config/features=PackedStringArray("4.2", "Forward Plus")
+config/features=PackedStringArray("4.2", "C#", "Forward Plus")
 config/icon="res://icon.svg"
+
+[autoload]
+
+CyclopsAutoload="*res://addons/cyclops_level_builder/cyclops_global_scene.tscn"
 
 [dotnet]
 
