@@ -21,3 +21,7 @@ CyclopsAutoload="*res://addons/cyclops_level_builder/cyclops_global_scene.tscn"
 [dotnet]
 
 project/assembly_name="Project Comet"
+
+[editor_plugins]
+
+enabled=PackedStringArray("res://addons/cyclops_level_builder/plugin.cfg")
